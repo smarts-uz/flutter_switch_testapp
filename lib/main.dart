@@ -1,4 +1,7 @@
+import 'package:day_night_switch/day_night_switch.dart';
 import 'package:flutter/material.dart';
+
+import 'day_night_switch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,6 +35,8 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
+  bool dayNightSwitch = true;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,10 +44,12 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [],
+      body: Container(
+        margin: const EdgeInsets.all(16),
+        child: const Column(
+          children: [
+            DayNightSwitchCustom(),
+          ],
         ),
       ),
     );
