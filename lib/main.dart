@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'day_night_switch.dart';
 import 'action_slider.dart';
 import 'flutter_switch_clipper.dart';
+import 'flutter_toggle_tab.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,8 +21,10 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ClipperDart(),
-      // const MyHomePage(title: 'Switch Test App'),
+      home: const ToglleTab(
+        title: 'ToggleTab',
+      ),
+      // const ToglleTab(title: 'Switch Test App'),
     );
   }
 }

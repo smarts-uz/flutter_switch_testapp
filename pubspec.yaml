@@ -16,6 +16,7 @@ dependencies:
   day_night_switch: ^1.0.4
   action_slider: ^0.7.0
   flutter_switch_clipper: ^0.0.5
+  flutter_toggle_tab: ^1.4.1
 
 dev_dependencies:
   flutter_test:
