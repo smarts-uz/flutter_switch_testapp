@@ -2,6 +2,7 @@ import 'package:day_night_switch/day_night_switch.dart';
 import 'package:flutter/material.dart';
 import 'day_night_switch.dart';
 import 'action_slider.dart';
+import 'flutter_switch_clipper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,11 +20,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Switch Test App'),
+      home: const ClipperDart(),
+      // const MyHomePage(title: 'Switch Test App'),
     );
   }
 }
-
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -35,7 +36,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   bool dayNightSwitch = true;
 
   @override
@@ -49,7 +49,8 @@ class _MyHomePageState extends State<MyHomePage> {
         margin: const EdgeInsets.all(16),
         child: const Column(
           children: [
-            DayNightSwitchCustom(),
+            // DayNightSwitchCustom(),
+            ClipperDart(),
           ],
         ),
       ),
@@ -84,4 +85,3 @@ class _MyHomePageState extends State<MyHomePage> {
 //     );
 //   }
 // }
-

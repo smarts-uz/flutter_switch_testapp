@@ -86,6 +86,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
+  flutter_switch_clipper:
+    dependency: "direct main"
+    description:
+      name: flutter_switch_clipper
+      sha256: f04d44082b134adb3b2200d68422b086ad5a85e5ef4a640591da28ffce2e472f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.5"
   flutter_test:
     dependency: "direct dev"
     description: flutter
