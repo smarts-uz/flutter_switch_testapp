@@ -115,6 +115,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  load_switch:
+    dependency: "direct main"
+    description:
+      name: load_switch
+      sha256: dd204ca30327097520011f26bf9e03f390399a7417700db6778cff6890d2d21f
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.7"
   matcher:
     dependency: transitive
     description:

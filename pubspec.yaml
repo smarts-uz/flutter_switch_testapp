@@ -17,6 +17,7 @@ dependencies:
   action_slider: ^0.7.0
   flutter_switch_clipper: ^0.0.5
   flutter_toggle_tab: ^1.4.1
+  load_switch: ^2.0.7
 
 dev_dependencies:
   flutter_test:
