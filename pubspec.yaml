@@ -20,6 +20,7 @@ dependencies:
   load_switch: ^2.0.7
   sliding_switch: ^1.1.0
   sliding_toggle_switch: ^1.0.0
+  switcher_xlive: ^1.0.5
 
 dev_dependencies:
   flutter_test:

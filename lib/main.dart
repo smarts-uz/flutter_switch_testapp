@@ -2,6 +2,7 @@ import 'package:day_night_switch/day_night_switch.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_switch_testapp/sliding_switch.dart';
 import 'package:flutter_switch_testapp/sliding_toggle_switch.dart';
+import 'package:flutter_switch_testapp/switcher_xlive.dart';
 import 'day_night_switch.dart';
 import 'action_slider.dart';
 import 'flutter_switch_clipper.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SlidingToggleSwitchPage(),
+      home: const SwtichXLivePage(),
     );
   }
 }
