@@ -40,6 +40,7 @@ class _LoadSwtichState extends State<LoadSwtich> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             LoadSwitch(
+
               value: value,
               isActive: thumbStatus,
               future: _getFuture,
