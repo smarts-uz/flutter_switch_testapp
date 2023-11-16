@@ -8,6 +8,7 @@ import 'day_night_switch.dart';
 import 'action_slider.dart';
 import 'flutter_switch_clipper.dart';
 import 'flutter_toggle_tab.dart';
+import 'lite_rolling_switch.dart';
 import 'load_switch.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TogleSiwtchTestPage(),
+      home: const LiteRollingSwitchPage(),
     );
   }
 }
