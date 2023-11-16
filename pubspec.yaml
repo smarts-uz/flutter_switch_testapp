@@ -21,6 +21,8 @@ dependencies:
   sliding_switch: ^1.1.0
   sliding_toggle_switch: ^1.0.0
   switcher_xlive: ^1.0.5
+  toggle_switch: ^2.1.0
+  font_awesome_flutter: ^10.6.0
 
 dev_dependencies:
   flutter_test:
