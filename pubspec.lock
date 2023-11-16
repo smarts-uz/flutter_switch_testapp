@@ -168,6 +168,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+  sliding_toggle_switch:
+    dependency: "direct main"
+    description:
+      name: sliding_toggle_switch
+      sha256: "747509815af4188a277e3bb4eb1aa48c333ae868d74b387f7e22cd619f3a969b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   source_span:
     dependency: transitive
     description:
