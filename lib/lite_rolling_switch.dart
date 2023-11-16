@@ -9,8 +9,6 @@ class LiteRollingSwitchPage extends StatefulWidget {
 }
 
 class _LiteRollingSwitchPageState extends State<LiteRollingSwitchPage> {
-  bool test = true;
-  String testString = 'Default';
 
   @override
   Widget build(BuildContext context) {
@@ -25,12 +23,11 @@ class _LiteRollingSwitchPageState extends State<LiteRollingSwitchPage> {
             //By default
             LiteRollingSwitch(
               value: false,
-              onChanged: (bool state) {
-                print('turned ${(state) ? 'on' : 'off'}');
-              },
+              onChanged: (bool state) {},
               onDoubleTap: () {},
               onSwipe: () {},
               onTap: () {},
+
             ),
 
             //Customized
